@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #E6E6FA, #9370DB);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+}
+.header-text{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+.conteiner{
+    display: flex;
+    flex-grow: 1;
+}
+nav{
+    margin: 0 30px;
+}
+nav>ul{
+    list-style: none;
+    padding: 0;
+}
+nav>ul li{
+    display: block;
+}
+footer{
+    height: 40px;
+}
