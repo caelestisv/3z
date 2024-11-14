@@ -37,14 +37,43 @@ div{
 }
 nav{
     margin: 0 30px;
+    position:relative;
+    z-index: 1000;
 }
 nav>ul{
     list-style: none;
     padding: 0;
+    width: 200px;
+    margin: 0;
 }
 nav>ul li{
     display: block;
     font-family: font2;
+    border: 2px solid #47248E;
+    background: radial-gradient(#98A7ED,#7385DB);
+    border-radius: 10px;
+    height:50px;
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1px;
+}
+li div{
+    width: 90%;
+    text-align: center;
+}
+nav>ul li div:hover{
+    cursor: pointer;
+    color: white;
+}
+.content{
+    box-shadow: 2px 2px 2px black;
+    border: 1px solid #47248E;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 2px 5px 10px 40px;
 }
 footer{
     height: 40px;
